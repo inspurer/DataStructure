@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: node - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP5FC3.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/node.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Users\lenovo\Desktop\数据结构上机\node\666.c"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP5FC3.tmp" 
+<h3>Output Window</h3>
+Compiling...
+666.c
+C:\Users\lenovo\Desktop\数据结构上机\node\666.c(59) : warning C4700: local variable 'p2' used without having been initialized
+C:\Users\lenovo\Desktop\数据结构上机\node\666.c(121) : warning C4700: local variable 'head' used without having been initialized
+
+
+
+<h3>Results</h3>
+666.obj - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

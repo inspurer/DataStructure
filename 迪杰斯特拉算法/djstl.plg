@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: djstl - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPC341.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/djstl.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c"
+]
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSPC341.tmp" 
+<h3>Output Window</h3>
+Compiling...
+1.c
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(63) : error C2057: expected constant expression
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(63) : error C2466: cannot allocate an array of constant size 0
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(63) : error C2133: 'dist' : unknown size
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(64) : error C2057: expected constant expression
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(64) : error C2466: cannot allocate an array of constant size 0
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(64) : error C2133: 'path' : unknown size
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(65) : error C2057: expected constant expression
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(65) : error C2466: cannot allocate an array of constant size 0
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(65) : error C2133: 's' : unknown size
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(70) : error C2143: syntax error : missing ')' before ';'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(70) : error C2059: syntax error : ')'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(72) : error C2181: illegal else without matching if
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(80) : error C2143: syntax error : missing ';' before 'type'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(81) : error C2065: 'n' : undeclared identifier
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(84) : error C2065: 'u' : undeclared identifier
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(89) : error C2143: syntax error : missing ')' before ';'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(89) : error C2143: syntax error : missing ';' before '&&'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(89) : error C2059: syntax error : ')'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(95) : error C2059: syntax error : 'for'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(95) : error C2143: syntax error : missing '{' before '<'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(95) : error C2059: syntax error : '<'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(95) : error C2143: syntax error : missing '{' before '++'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(95) : error C2059: syntax error : '++'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(95) : error C2059: syntax error : ')'
+C:\Users\lenovo\Desktop\Programme2017\数据结构上机\djstl\1.c(105) : error C2059: syntax error : '}'
+执行 cl.exe 时出错.
+
+
+
+<h3>Results</h3>
+1.obj - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
