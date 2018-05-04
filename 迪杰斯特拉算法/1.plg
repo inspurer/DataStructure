@@ -6,19 +6,30 @@
 --------------------Configuration: 1 - Win32 Debug--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSPD607.tmp" with contents
+Creating temporary file "C:\Users\lenovo\AppData\Local\Temp\RSP859E.tmp" with contents
 [
-kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/1.pdb" /debug /machine:I386 /out:"Debug/1.exe" /pdbtype:sept 
-".\Debug\1.obj"
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/1.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\2017\Programme2017\数据结构上机\迪杰斯特拉算法\1.c"
 ]
-Creating command line "link.exe @C:\Users\lenovo\AppData\Local\Temp\RSPD607.tmp"
+Creating command line "cl.exe @C:\Users\lenovo\AppData\Local\Temp\RSP859E.tmp" 
 <h3>Output Window</h3>
-Linking...
+Compiling...
+1.c
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(119) : warning C4047: 'function' : 'struct seqstack *' differs in levels of indirection from 'int (*)[10]'
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(119) : warning C4024: 'initstack' : different types for formal and actual parameter 1
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(128) : warning C4047: 'function' : 'struct seqstack *' differs in levels of indirection from 'int (*)[10]'
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(128) : warning C4024: 'push' : different types for formal and actual parameter 1
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(132) : warning C4047: 'function' : 'struct seqstack *' differs in levels of indirection from 'int (*)[10]'
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(132) : warning C4024: 'push' : different types for formal and actual parameter 1
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(135) : warning C4047: 'function' : 'struct seqstack *' differs in levels of indirection from 'int (*)[10]'
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(135) : warning C4024: 'stackempty' : different types for formal and actual parameter 1
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(137) : warning C4047: 'function' : 'struct seqstack *' differs in levels of indirection from 'int (*)[10]'
+d:\2017\programme2017\数据结构上机\迪杰斯特拉算法\1.c(137) : warning C4024: 'pop' : different types for formal and actual parameter 1
 
 
 
 <h3>Results</h3>
-1.exe - 0 error(s), 0 warning(s)
+1.obj - 0 error(s), 0 warning(s)
 </pre>
 </body>
 </html>
